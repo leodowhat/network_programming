@@ -1,4 +1,4 @@
-<span style="font-family:'Comic Sans MS';font-size:18px;">import socket, select
+import socket, select
 import re
 server = socket.socket()
 Addr = ("", 2050)
@@ -69,4 +69,4 @@ while True:
                         pass
                     else:
                         x.send(leftdata)
-                inputs.remove(i)</span>
+                inputs.remove(i)

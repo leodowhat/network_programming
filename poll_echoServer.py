@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''
-Created on Feb 27, 2016
 
-@author: mountain
-'''
 import select
 import socket
 import sys
@@ -65,8 +61,3 @@ while True:
              poller.unregister(sock)
              sock.close()
              del msg_queues[sock]
-
-作者：MountainKing
-链接：https://www.jianshu.com/p/1020c11f016c
-來源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

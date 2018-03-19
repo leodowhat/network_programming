@@ -1,4 +1,4 @@
-<span style="font-family:'Comic Sans MS';font-size:18px;">from socket import *
+from socket import *
 import threading
 from time import sleep
 HOST = 'localhost'
@@ -37,4 +37,4 @@ t2.start()
 t1.join()
 t2.join()
 
-tcpCliSock.close()</span>
+tcpCliSock.close()
